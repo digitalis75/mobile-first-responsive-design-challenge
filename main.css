@@ -1,0 +1,26 @@
+/*mobile-first responsive design*/
+.column{
+  float: left;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  background-color: #000;
+}
+
+/*
+@media (min-width: 768px){
+  .column{
+    background-color: red;
+    width: 30%;
+    margin: 10px;
+}
+}
+*/
+
+@media (min-width: 992px){
+  .column{
+    background-color: blue;
+    width: 30%;
+    margin: 10px;
+  }
+}

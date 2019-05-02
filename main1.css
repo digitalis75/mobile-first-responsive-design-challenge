@@ -1,0 +1,22 @@
+/*Desktop-first responsive design*/
+.column {
+    float: left;
+    background-color: #e84610; /*blue*/
+    width: 30%;
+    height: 50px;
+    margin: 10px;
+}
+
+@media (max-width: 991px) {
+    .column{
+     background-color: #0997d3; /*red*/
+    }
+} 
+
+@media (max-width: 767px) {
+    .column{
+        background-color: #000;/*black*/
+        width: 100%;
+        margin: 10px 0;
+    }
+}
